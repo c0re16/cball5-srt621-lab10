@@ -1,0 +1,26 @@
+ul {
+	width: 400px;
+	margin-left: 30px;
+	margin-right: auto;
+
+	text-align: center;
+	list-style-type: none;
+
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+
+}
+li {
+	background-color: #DFDFDF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: black;
+	color: grey;
+}
