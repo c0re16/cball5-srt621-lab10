@@ -26,7 +26,7 @@
 
 
 				a = document.createElement('a');
-				a.setAttribute('href','/api/books/'+JSON.parse(request.response)[i]['index']);
+				a.setAttribute('href','/books/'+JSON.parse(request.response)[i]['index']);
 				let li = document.createElement("li");
 				li.innerText = JSON.parse(request.response)[i]['bookname'];
 				a.appendChild(li);
